@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Cabinet_medecin">
+		<class>tn.iit.model.Administrateur</class>
+		<class>tn.iit.model.Certificatderepo</class>
+		<class>tn.iit.model.Certificatsmedicaux</class>
+		<class>tn.iit.model.Consultation</class>
+		<class>tn.iit.model.Fichierpatient</class>
+		<class>tn.iit.model.Medecin</class>
+		<class>tn.iit.model.Medicament</class>
+		<class>tn.iit.model.Ordonnance</class>
+		<class>tn.iit.model.Patient</class>
+		<class>tn.iit.model.Rendezvous</class>
+		<class>tn.iit.model.Secretaire</class>
+		<class>tn.iit.model.Utilisateur</class>
+	</persistence-unit>
+</persistence>
